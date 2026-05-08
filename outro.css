@@ -76,3 +76,63 @@ code {
     margin-bottom: 0;
     color: #3d0513;
 }
+
+.campo {
+    padding: 16px;
+}
+
+.campo label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.campo input, .campo select {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+
+}
+
+.campo input:focus, .campo select:focus {
+    border-color: #a00c31;
+    outline: none;
+
+}
+
+.btn-enviar {
+    padding: 10px 24px;
+    background-color: #cf899b;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.btn-enviar:hover {
+    background-color: #ae425d;
+ 
+}
+
+.nav-links {
+    margin-top: 3remm;
+    padding-top: 1remm;
+    border-top: 1px solid #871c1c;
+}
+
+.nav-links a {
+    color: #a00c31;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
